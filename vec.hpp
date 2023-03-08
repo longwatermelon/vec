@@ -87,3 +87,11 @@ struct Vec
         return s;
     }
 };
+
+using vec4 = Vec<float, 4>;
+using vec3 = Vec<float, 3>;
+using vec2 = Vec<float, 2>;
+
+using ivec4 = Vec<int, 4>;
+using ivec3 = Vec<int, 3>;
+using ivec2 = Vec<int, 2>;
